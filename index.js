@@ -5,8 +5,8 @@ var textapi = new AYLIENTextAPI({
 });
 
 var params = {
-    text: "RS 600.00 was withdrawn using your HDFC Bank Card ending 6769.Avl bal:Rs 13196.26",
-    class: ['BANK', 'OTP', 'CINEMA']
+    text: "Rs 600.00 was withdrawn using your HDFC Bank Card ending 6769.Avl bal:Rs 13196.26",
+    class: ['BANK', 'OTP', 'CINEMA', 'TRANSACTION']
 };
 
 textapi.unsupervisedClassify(params, function(error, response) {
