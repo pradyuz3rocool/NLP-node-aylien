@@ -1,0 +1,15 @@
+{
+  "name": "textanalyser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anil Pradyumna Chakicherla",
+  "license": "ISC",
+  "dependencies": {
+    "aylien_textapi": "^0.6.0"
+  }
+}
